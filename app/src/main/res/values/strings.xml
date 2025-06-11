@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeetingTranscriber</string>
+    <string name="record">녹음 시작</string>
+    <string name="stop">녹음 종료 및 분석</string>
+    <string name="status_wait">상태: 대기 중</string>
+    <string name="result">결과: </string>
+</resources>

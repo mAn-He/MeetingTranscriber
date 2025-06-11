@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MeetingTranscriber"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎤 녹음 시작"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏹️ 녹음 종료 및 분석"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="상태: 초기화 중..."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="#f0f0f0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 결과"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과가 여기에 표시됩니다..."
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="#f8f8f8"
+            android:scrollbars="vertical"
+            android:maxLines="50" />
+
+    </LinearLayout>
+
+</ScrollView>
