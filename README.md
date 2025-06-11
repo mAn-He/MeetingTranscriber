@@ -58,7 +58,7 @@ graph TD
 
 1. **프로젝트 클론**
 ```bash
-git clone https://github.com/your-username/MeetingTranscriber.git
+git clone https://github.com/mAn-He/MeetingTranscriber.git
 cd MeetingTranscriber
 ```
 
